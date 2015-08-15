@@ -11,6 +11,12 @@ public class TwilioMessaging : MonoBehaviour
 	public string auth;
 	public string body;
 
+	public void SendSMSBatch(string[] to){
+		foreach (string s in to) {
+			this.to=s;
+			this.SendSMS();
+		}
+	}
 	public void SendSMS ()
 	{
 		WWWForm form = new WWWForm ();

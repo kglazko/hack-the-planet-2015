@@ -14,6 +14,14 @@ public struct ThresholdMessage
 {
 	public string[] messages;
 	public int start;
+
+	public string GetAndIncr {
+		get {
+			string msg = messages [start];
+			start = 1 + start % messages.Length;
+			return msg;
+		}
+	}
 }
 
 public class MainController : MonoBehaviour
@@ -24,14 +32,21 @@ public class MainController : MonoBehaviour
 	public float[] threshold_needed_min, threshold_needed_max;
 	public float[] ios_thresholds, osx_thresholds;
 	public ThresholdMessage[] messages;
-	
+	public float delay_between_messages;
+	bool canSMS;
 	// Use this for initialization
 	void Start ()
 	{
+		this.canSMS = true;
 		this.decibels = new List<DecibelEvent> ();
 		this.twilio = this.GetComponent<TwilioMessaging> ();
 		this.sendgrid = this.GetComponent<SG_Email> ();
 		this.GetComponent<DecibelReader> ().setOnDecibel (this.OnDecibel);
+	}
+
+	void onDelayOver ()
+	{
+		this.canSMS = true;
 	}
 
 	public void OnDecibel (float dec)
@@ -41,14 +56,28 @@ public class MainController : MonoBehaviour
 		ev.ts = Time.time;
 		this.decibels.Add (ev);
 		#if UNITY_EDITOR || UNITY_STANDALONE_OSX
-		this.TryComplain (this.osx_thresholds);
+			int complain = this.TryComplain (this.osx_thresholds);
 		#elif UNITY_IOS
-		this.tryComplain(this.ios_thresholds);
+			int complain = this.tryComplain(this.ios_thresholds);
 		#endif
+		if (complain != -1) {
+			this.Complain (complain);
+		}
 	}
 
-	public void TryComplain (float[] thresholds)
+	void Complain (int index)
 	{
+		string msg = this.messages [index].GetAndIncr;
+		Debug.Log ("Send message " + msg);
+		this.canSMS = false;
+		Invoke ("onDelayOver", delay_between_messages);
+	}
+
+	int TryComplain (float[] thresholds)
+	{
+		if (!canSMS) {
+			return -1;
+		}
 		float sum = 0;
 		float end_ts = this.decibels [this.decibels.Count - 1].ts;
 		for (int i = this.decibels.Count-1; i != -1; i--) {
@@ -74,8 +103,9 @@ public class MainController : MonoBehaviour
 					continue;
 				}
 				Debug.Log ("Complain at level " + ii + " because avg = " + avg + " over time " + elapsed);
-				return;
+				return ii;
 			}
 		}
+		return -1;
 	}
 }

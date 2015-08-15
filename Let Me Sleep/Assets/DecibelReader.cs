@@ -14,9 +14,10 @@ public class DecibelReader : MonoBehaviour
 	public int pull_duration, sampling_frequency;
 	public int qSamples;
 	public float rmsValue, dbValue, refValue, usedValue;
-
 	OnDecibel ondecible;
-	public void setOnDecibel(OnDecibel db){
+
+	public void setOnDecibel (OnDecibel db)
+	{
 		this.ondecible = db;
 	}
 	// Use this for initialization
@@ -58,8 +59,12 @@ public class DecibelReader : MonoBehaviour
 		Debug.Log ("Grabbed new data with " + source.clip.channels + " channel");
 		this.GetVolume ();
 		this.usedValue = 1000 * this.rmsValue;
-		this.transf.localScale = new Vector3 (1, usedValue, 1);
-		this.txt.text = usedValue.ToString ("n3");
+		if (this.transf != null) {
+			this.transf.localScale = new Vector3 (1, usedValue, 1);
+		}
+		if (this.txt != null) {
+			this.txt.text = usedValue.ToString ("n3");
+		}
 		this.ondecible (usedValue);
 		this.Record ();
 	}
