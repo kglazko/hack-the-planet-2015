@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -29,6 +30,8 @@ public class MainController : MonoBehaviour
 	TwilioMessaging twilio;
 	SG_Email sendgrid;
 	List<DecibelEvent> decibels;
+	public Text[] sms_numbers;
+	public Text[] email_addresses;
 	public float[] threshold_needed_min, threshold_needed_max;
 	public float[] ios_thresholds, osx_thresholds;
 	public ThresholdMessage[] messages;
@@ -69,6 +72,12 @@ public class MainController : MonoBehaviour
 	{
 		string msg = this.messages [index].GetAndIncr;
 		Debug.Log ("Send message " + msg);
+		this.twilio.body = msg;
+		string[] str = new string[this.sms_numbers.Length];
+		for (int i = 0 ; i != this.sms_numbers.Length; ++i) {
+			str[i]=this.sms_numbers[i].text;
+		}
+		this.twilio.SendSMSBatch(str);
 		this.canSMS = false;
 		Invoke ("onDelayOver", delay_between_messages);
 	}
