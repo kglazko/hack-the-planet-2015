@@ -9,6 +9,13 @@ public struct DecibelEvent
 	public float ts, db;
 }
 
+[System.Serializable]
+public struct ThresholdMessage
+{
+	public string[] messages;
+	public int start;
+}
+
 public class MainController : MonoBehaviour
 {
 	TwilioMessaging twilio;
@@ -16,6 +23,8 @@ public class MainController : MonoBehaviour
 	List<DecibelEvent> decibels;
 	public float[] threshold_needed_min, threshold_needed_max;
 	public float[] ios_thresholds, osx_thresholds;
+	public ThresholdMessage[] messages;
+	
 	// Use this for initialization
 	void Start ()
 	{
@@ -52,7 +61,7 @@ public class MainController : MonoBehaviour
 				break;
 			}
 			for (int ii = 0; ii != this.threshold_needed_min.Length; ii++) {
-				if(this.threshold_needed_max[ii] < elapsed){
+				if (this.threshold_needed_max [ii] < elapsed) {
 					//Debug.Log ("Skipping " + ii + " since elapsed time is already greater than " + this.threshold_needed_max[ii]);
 					continue;
 				}
