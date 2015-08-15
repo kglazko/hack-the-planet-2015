@@ -2,10 +2,10 @@
 using UnityEngine.UI;
 using System.Collections;
 
+public delegate void OnDecibel (float decible);
+
 public class DecibelReader : MonoBehaviour
 {
-	public float low_disturbance_threshold;
-	public float serious_disturbance_threshold;
 	public Text txt;
 	public Transform transf;
 	public float[] data;
@@ -14,17 +14,18 @@ public class DecibelReader : MonoBehaviour
 	public int pull_duration, sampling_frequency;
 	public int qSamples;
 	public float rmsValue, dbValue, refValue, usedValue;
+
+	OnDecibel ondecible;
+	public void setOnDecibel(OnDecibel db){
+		this.ondecible = db;
+	}
 	// Use this for initialization
 	void Start ()
 	{
-		this.qSamples = Mathf.RoundToInt(this.pull_duration * this.sampling_frequency);
+		this.qSamples = Mathf.RoundToInt (this.pull_duration * this.sampling_frequency);
 		this.data = new float[qSamples];
 		Debug.Log ("Using microphone " + Microphone.devices [0]);
 		Invoke ("Record", pull_frequency);
-
-		//this.GetComponent<TwilioMessaging> ().SendSMS ();
-		//this.GetComponent<SG_Email>().SendSendgridEmailWebAPI ();
-		//this.GetComponent<SG_Email> ().SendSendgridEmailSMTP ();
 	}
 
 	void GetVolume ()
@@ -59,18 +60,8 @@ public class DecibelReader : MonoBehaviour
 		this.usedValue = 1000 * this.rmsValue;
 		this.transf.localScale = new Vector3 (1, usedValue, 1);
 		this.txt.text = usedValue.ToString ("n3");
-		if (this.usedValue > this.serious_disturbance_threshold) {
-			this.txt.color = Color.red;
-		} else	if (this.usedValue > this.low_disturbance_threshold) {
-			this.txt.color = Color.yellow;
-		} else {
-			this.txt.color = Color.white;
-		}
+		this.ondecible (usedValue);
 		this.Record ();
 	}
-	// Update is called once per frame
-	void Update ()
-	{
 
-	}
 }
