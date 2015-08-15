@@ -2,21 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public delegate void ThresholdCrossedFunction();
+public delegate void ThresholdCrossedFunction ();
+
 public struct DecibelEvent
 {
 	public float ts, db;
 }
-[System.Serializable]
-public struct Threshold{
-	public float db;
-	public ThresholdCrossedFunction callback;
-}
+
 public class MainController : MonoBehaviour
 {
 	TwilioMessaging twilio;
 	SG_Email sendgrid;
 	List<DecibelEvent> decibels;
+	public float[] threshold_needed_min, threshold_needed_max;
 	public float[] ios_thresholds, osx_thresholds;
 	// Use this for initialization
 	void Start ()
@@ -32,16 +30,43 @@ public class MainController : MonoBehaviour
 		DecibelEvent ev = new DecibelEvent ();
 		ev.db = dec;
 		ev.ts = Time.time;
+		this.decibels.Add (ev);
+		#if UNITY_EDITOR || UNITY_STANDALONE_OSX
+		this.TryComplain (this.osx_thresholds);
+		#elif UNITY_IOS
+		this.tryComplain(this.ios_thresholds);
+		#endif
 	}
 
-	// Update is called once per frame
-	void Update ()
+	public void TryComplain (float[] thresholds)
 	{
-		//float avg = 5;
-		//double needed = 0.4026765184 * Mathf.Pow (avg, 4) - 26.25645611 * Mathf.Pow (avg, 3) + 334.2236632 * avg * avg - 1444.000294 * avg + 1975.630411;
-		// y = 2.788495725 x4 - 112.5712224 x3 + 874.0103878 x2 - 2018.589941 x + 1033.231182
-#if UNITY_EDITOR || UNITY_STANDALONE_OSX
-		#elif UNITY_IOS
-		#endif
+		float sum = 0;
+		float end_ts = this.decibels [this.decibels.Count - 1].ts;
+		for (int i = this.decibels.Count-1; i != -1; i--) {
+			float elapsed = end_ts - this.decibels [i].ts;
+			sum += this.decibels [i].db;
+			float avg = sum / (this.decibels.Count - i);
+			if (elapsed > this.threshold_needed_max [this.threshold_needed_min.Length - 1] 
+				&& avg < thresholds [thresholds.Length - 1]) {
+				Debug.Log ("It's been " + elapsed + " and still no complain, breaking!");
+				break;
+			}
+			for (int ii = 0; ii != this.threshold_needed_min.Length; ii++) {
+				if(this.threshold_needed_max[ii] < elapsed){
+					//Debug.Log ("Skipping " + ii + " since elapsed time is already greater than " + this.threshold_needed_max[ii]);
+					continue;
+				}
+				if (this.threshold_needed_min [ii] > elapsed) {
+					//Debug.Log ("Can't complain at level " + ii + " because elapsed time " + elapsed + " is below threshold " + this.threshold_needed_min [ii]);
+					continue;
+				}
+				if (thresholds [ii] >= avg) {
+					//Debug.Log ("Can't complain at level " + ii + " because avg " + avg + " is less than " + thresholds [ii]);
+					continue;
+				}
+				Debug.Log ("Complain at level " + ii + " because avg = " + avg + " over time " + elapsed);
+				return;
+			}
+		}
 	}
 }
