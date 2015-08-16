@@ -83,7 +83,7 @@ public class MainController : MonoBehaviour
 		#if UNITY_EDITOR || UNITY_STANDALONE_OSX
 			int complain = this.TryComplain (this.osx_thresholds);
 		#elif UNITY_IOS
-			int complain = this.tryComplain(this.ios_thresholds);
+		int complain = this.TryComplain(this.ios_thresholds);
 		#endif
 		if (complain != -1) {
 			this.Complain (complain);
