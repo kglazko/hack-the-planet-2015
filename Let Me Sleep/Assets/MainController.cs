@@ -30,8 +30,8 @@ public class MainController : MonoBehaviour
 	TwilioMessaging twilio;
 	SG_Email sendgrid;
 	List<DecibelEvent> decibels;
-	public Text[] sms_numbers;
-	public Text[] email_addresses;
+	public InputField[] sms_numbers;
+	public InputField[] email_addresses;
 	public float[] threshold_needed_min, threshold_needed_max;
 	public float[] ios_thresholds, osx_thresholds;
 	public ThresholdMessage[] messages;
@@ -50,14 +50,13 @@ public class MainController : MonoBehaviour
 		this.sendgrid = this.GetComponent<SG_Email> ();
 		this.GetComponent<DecibelReader> ().setOnDecibel (this.OnDecibel);
 		this.loadSaved ();
-		this.email_addresses [0].text = "wtf";
 	}
 
 	void loadSaved ()
 	{
 		for (int i = 0; i != this.sms_numbers.Length; i++) {
 			if (PlayerPrefs.HasKey (SMS_KEY + i)) {
-				this.sms_numbers [i].text = PlayerPrefs.GetInt (SMS_KEY + i).ToString();;
+				this.sms_numbers [i].text = PlayerPrefs.GetString (SMS_KEY + i) ;
 			}
 		}
 		for (int i = 0; i != this.email_addresses.Length; i++) {
@@ -176,11 +175,21 @@ public class MainController : MonoBehaviour
 
 	public void OnEmailUpdate (int pos)
 	{
+		Debug.Log (this.email_addresses [pos].text);
+		if (this.email_addresses [pos].text == "") {
+			//Debug.Log ("delete");
+			PlayerPrefs.DeleteKey (EMAIL_KEY + pos);
+			return;
+		}
 		PlayerPrefs.SetString (EMAIL_KEY + pos, this.email_addresses [pos].text);
 	}
 
 	public void OnTextUpdate (int pos)
 	{
+		if (this.sms_numbers [pos].text == "") {
+			PlayerPrefs.DeleteKey (SMS_KEY + pos);
+			return;
+		}
 		PlayerPrefs.SetString (SMS_KEY + pos, this.sms_numbers [pos].text);
 	}
 }
