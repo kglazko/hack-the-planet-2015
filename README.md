@@ -1,2 +1,2 @@
-# la-hacks-2015
-Hack for LA Hacks
+# hack-the-planet-2015
+Hack for Hack the Planet
