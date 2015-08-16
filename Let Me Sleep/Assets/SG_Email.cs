@@ -13,7 +13,7 @@ public class SG_Email : MonoBehaviour
 	string api_key = "dellintel123";
 	string fromEmail = "your.roomate@your.house";
 	string toEmail = "roycraft3@gmail.com";
-	string subject = "Sendgrid Email Awesomeness";
+	string subject = "From your roommate with love";
 	string body;
 
 	void Start ()
@@ -68,10 +68,10 @@ public class SG_Email : MonoBehaviour
 		form.AddField ("from", fromEmail);
 		
 		//you have to change every instance of space to %20 or you'll get a 400 error
-		string subjectWithoutSpace = subject.Replace (" ", "%20");
-		form.AddField ("subject", subjectWithoutSpace);
-		string bodyWithoutSpace = body.Replace (" ", "%20");
-		form.AddField ("text", bodyWithoutSpace);
+		//string subjectWithoutSpace = subject.Replace (" ", "%20");
+		form.AddField ("subject", subject);
+		//string bodyWithoutSpace = body.Replace (" ", "%20");
+		form.AddField ("text", body);
 
 		//form.AddField ("x-smtpapi", xsmtpapiJSON);
 		form.AddField ("api_user", api_user);

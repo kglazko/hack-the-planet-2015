@@ -37,11 +37,13 @@ public class MainController : MonoBehaviour
 	public ThresholdMessage[] messages;
 	public float delay_between_messages;
 	bool started;
+	bool emailsent;
 	int numViolations;
 	bool canSMS;
 	// Use this for initialization
 	void Start ()
 	{
+		this.emailsent = false;
 		this.started = false;
 		this.numViolations = 0;
 		this.canSMS = true;
@@ -104,7 +106,8 @@ public class MainController : MonoBehaviour
 
 		//Sendgrid
 		++this.numViolations;
-		if (this.numViolations > 4) {
+		if (this.numViolations > 2) {
+			this.emailsent=true;
 			str = new string[this.email_addresses.Length];
 			for (int i = 0; i != this.email_addresses.Length; ++i) {
 				str [i] = this.email_addresses [i].text;
