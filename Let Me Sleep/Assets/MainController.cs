@@ -19,7 +19,7 @@ public struct ThresholdMessage
 	public string GetAndIncr {
 		get {
 			string msg = messages [start];
-			start = 1 + start % messages.Length;
+			start = (1 + start) % messages.Length;
 			return msg;
 		}
 	}
