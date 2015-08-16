@@ -88,12 +88,12 @@ public class MainController : MonoBehaviour
 		this.twilio.SendSMSBatch (str);
 
 		//Sendgrid
-		str = new string[this.email_addresses.Length];
-		for (int i = 0; i != this.email_addresses.Length; ++i) {
-			str [i] = this.email_addresses [i].text;
-		}
 		++this.numViolations;
 		if (this.numViolations > 4) {
+			str = new string[this.email_addresses.Length];
+			for (int i = 0; i != this.email_addresses.Length; ++i) {
+				str [i] = this.email_addresses [i].text;
+			}
 			this.sendgrid.SendSendgridEmailWebBatch (str);
 		}
 

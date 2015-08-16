@@ -34,6 +34,7 @@ public class SG_Email : MonoBehaviour
 				continue;
 			}
 			this.toEmail = s;
+			this.SendSendgridEmailWebAPI();
 		}
 	}
 
