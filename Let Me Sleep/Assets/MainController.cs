@@ -56,7 +56,7 @@ public class MainController : MonoBehaviour
 	{
 		for (int i = 0; i != this.sms_numbers.Length; i++) {
 			if (PlayerPrefs.HasKey (SMS_KEY + i)) {
-				this.sms_numbers [i].text = PlayerPrefs.GetString (SMS_KEY + i) ;
+				this.sms_numbers [i].text = PlayerPrefs.GetString (SMS_KEY + i);
 			}
 		}
 		for (int i = 0; i != this.email_addresses.Length; i++) {
@@ -123,6 +123,8 @@ public class MainController : MonoBehaviour
 		}
 	}
 
+	public float avgnow;
+
 	int TryComplain (float[] thresholds)
 	{
 		if (!canSMS) {
@@ -134,6 +136,7 @@ public class MainController : MonoBehaviour
 			float elapsed = end_ts - this.decibels [i].ts;
 			sum += this.decibels [i].db;
 			float avg = sum / (this.decibels.Count - i);
+			avgnow = avg;
 			if (elapsed > this.threshold_needed_max [this.threshold_needed_min.Length - 1] 
 				&& avg < thresholds [thresholds.Length - 1]) {
 				Debug.Log ("It's been " + elapsed + " and still no complain, breaking!");
