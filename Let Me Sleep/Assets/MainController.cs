@@ -36,10 +36,12 @@ public class MainController : MonoBehaviour
 	public float[] ios_thresholds, osx_thresholds;
 	public ThresholdMessage[] messages;
 	public float delay_between_messages;
+	int numViolations;
 	bool canSMS;
 	// Use this for initialization
 	void Start ()
 	{
+		this.numViolations = 0;
 		this.canSMS = true;
 		this.decibels = new List<DecibelEvent> ();
 		this.twilio = this.GetComponent<TwilioMessaging> ();
@@ -70,6 +72,10 @@ public class MainController : MonoBehaviour
 
 	void Complain (int index)
 	{
+		++this.numViolations;
+		if (this.numViolations > 4) {
+			//TODO send SG email
+		}
 		string msg = this.messages [index].GetAndIncr;
 		Debug.Log ("Send message " + msg);
 		this.twilio.body = msg;
