@@ -49,6 +49,22 @@ public class MainController : MonoBehaviour
 		this.twilio = this.GetComponent<TwilioMessaging> ();
 		this.sendgrid = this.GetComponent<SG_Email> ();
 		this.GetComponent<DecibelReader> ().setOnDecibel (this.OnDecibel);
+		this.loadSaved ();
+		this.email_addresses [0].text = "wtf";
+	}
+
+	void loadSaved ()
+	{
+		for (int i = 0; i != this.sms_numbers.Length; i++) {
+			if (PlayerPrefs.HasKey (SMS_KEY + i)) {
+				this.sms_numbers [i].text = PlayerPrefs.GetInt (SMS_KEY + i).ToString();;
+			}
+		}
+		for (int i = 0; i != this.email_addresses.Length; i++) {
+			if (PlayerPrefs.HasKey (EMAIL_KEY + i)) {
+				this.email_addresses [i].text = PlayerPrefs.GetString (EMAIL_KEY + i);
+			}
+		}
 	}
 
 	void onDelayOver ()
@@ -148,6 +164,23 @@ public class MainController : MonoBehaviour
 	{
 		Debug.Log (this.started ? "Stopping" : "Starting");
 		this.started = !this.started;
+		GameObject[] objs = GameObject.FindGameObjectsWithTag ("sheep");
+		foreach (GameObject obj in objs) {
+			obj.GetComponent<Image> ().enabled = this.started;
+		}
 		this.decibels = new List<DecibelEvent> ();
+	}
+
+	public const string EMAIL_KEY = "saved_email";
+	public const string SMS_KEY = "saved_phone";
+
+	public void OnEmailUpdate (int pos)
+	{
+		PlayerPrefs.SetString (EMAIL_KEY + pos, this.email_addresses [pos].text);
+	}
+
+	public void OnTextUpdate (int pos)
+	{
+		PlayerPrefs.SetString (SMS_KEY + pos, this.sms_numbers [pos].text);
 	}
 }

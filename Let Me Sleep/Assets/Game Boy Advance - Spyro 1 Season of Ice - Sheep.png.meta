@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: 8db5647889bb04e6fa1dc46c962de184
+timeCreated: 1439688867
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game Boy Advance - Spyro 1 Season of Ice - Sheep_0
+    21300002: Game Boy Advance - Spyro 1 Season of Ice - Sheep_1
+    21300004: Game Boy Advance - Spyro 1 Season of Ice - Sheep_2
+    21300006: Game Boy Advance - Spyro 1 Season of Ice - Sheep_3
+    21300008: Game Boy Advance - Spyro 1 Season of Ice - Sheep_4
+    21300010: Game Boy Advance - Spyro 1 Season of Ice - Sheep_5
+    21300012: Game Boy Advance - Spyro 1 Season of Ice - Sheep_6
+    21300014: Game Boy Advance - Spyro 1 Season of Ice - Sheep_7
+    21300016: Game Boy Advance - Spyro 1 Season of Ice - Sheep_8
+    21300018: Game Boy Advance - Spyro 1 Season of Ice - Sheep_9
+    21300020: Game Boy Advance - Spyro 1 Season of Ice - Sheep_10
+    21300022: Game Boy Advance - Spyro 1 Season of Ice - Sheep_11
+    21300024: Game Boy Advance - Spyro 1 Season of Ice - Sheep_12
+    21300026: Game Boy Advance - Spyro 1 Season of Ice - Sheep_13
+    21300028: Game Boy Advance - Spyro 1 Season of Ice - Sheep_14
+    21300030: Game Boy Advance - Spyro 1 Season of Ice - Sheep_15
+    21300032: Game Boy Advance - Spyro 1 Season of Ice - Sheep_16
+    21300034: Game Boy Advance - Spyro 1 Season of Ice - Sheep_17
+    21300036: Game Boy Advance - Spyro 1 Season of Ice - Sheep_18
+    21300038: Game Boy Advance - Spyro 1 Season of Ice - Sheep_19
+    21300040: Game Boy Advance - Spyro 1 Season of Ice - Sheep_20
+    21300042: Game Boy Advance - Spyro 1 Season of Ice - Sheep_21
+    21300044: Game Boy Advance - Spyro 1 Season of Ice - Sheep_22
+    21300046: Game Boy Advance - Spyro 1 Season of Ice - Sheep_23
+    21300048: Game Boy Advance - Spyro 1 Season of Ice - Sheep_24
+    21300050: Game Boy Advance - Spyro 1 Season of Ice - Sheep_25
+    21300052: Game Boy Advance - Spyro 1 Season of Ice - Sheep_26
+    21300054: Game Boy Advance - Spyro 1 Season of Ice - Sheep_27
+    21300056: Game Boy Advance - Spyro 1 Season of Ice - Sheep_28
+    21300058: Game Boy Advance - Spyro 1 Season of Ice - Sheep_29
+    21300060: Game Boy Advance - Spyro 1 Season of Ice - Sheep_30
+    21300062: Game Boy Advance - Spyro 1 Season of Ice - Sheep_31
+    21300064: Game Boy Advance - Spyro 1 Season of Ice - Sheep_32
+    21300066: Game Boy Advance - Spyro 1 Season of Ice - Sheep_33
+    21300068: Game Boy Advance - Spyro 1 Season of Ice - Sheep_34
+    21300070: Game Boy Advance - Spyro 1 Season of Ice - Sheep_35
+    21300072: Game Boy Advance - Spyro 1 Season of Ice - Sheep_36
+    21300074: Game Boy Advance - Spyro 1 Season of Ice - Sheep_37
+    21300076: Game Boy Advance - Spyro 1 Season of Ice - Sheep_38
+    21300078: Game Boy Advance - Spyro 1 Season of Ice - Sheep_39
+    21300080: Game Boy Advance - Spyro 1 Season of Ice - Sheep_40
+    21300082: Game Boy Advance - Spyro 1 Season of Ice - Sheep_41
+    21300084: Game Boy Advance - Spyro 1 Season of Ice - Sheep_42
+    21300086: Game Boy Advance - Spyro 1 Season of Ice - Sheep_43
+    21300088: Game Boy Advance - Spyro 1 Season of Ice - Sheep_44
+    21300090: Game Boy Advance - Spyro 1 Season of Ice - Sheep_45
+    21300092: Game Boy Advance - Spyro 1 Season of Ice - Sheep_46
+    21300094: Game Boy Advance - Spyro 1 Season of Ice - Sheep_47
+    21300096: Game Boy Advance - Spyro 1 Season of Ice - Sheep_48
+    21300098: Game Boy Advance - Spyro 1 Season of Ice - Sheep_49
+    21300100: Game Boy Advance - Spyro 1 Season of Ice - Sheep_50
+    21300102: Game Boy Advance - Spyro 1 Season of Ice - Sheep_51
+    21300104: Game Boy Advance - Spyro 1 Season of Ice - Sheep_52
+    21300106: Game Boy Advance - Spyro 1 Season of Ice - Sheep_53
+    21300108: Game Boy Advance - Spyro 1 Season of Ice - Sheep_54
+    21300110: Game Boy Advance - Spyro 1 Season of Ice - Sheep_55
+    21300112: Game Boy Advance - Spyro 1 Season of Ice - Sheep_56
+    21300114: Game Boy Advance - Spyro 1 Season of Ice - Sheep_57
+    21300116: Game Boy Advance - Spyro 1 Season of Ice - Sheep_58
+    21300118: Game Boy Advance - Spyro 1 Season of Ice - Sheep_59
+    21300120: Game Boy Advance - Spyro 1 Season of Ice - Sheep_60
+    21300122: Game Boy Advance - Spyro 1 Season of Ice - Sheep_61
+    21300124: Game Boy Advance - Spyro 1 Season of Ice - Sheep_62
+    21300126: Game Boy Advance - Spyro 1 Season of Ice - Sheep_63
+    21300128: Game Boy Advance - Spyro 1 Season of Ice - Sheep_64
+    21300130: Game Boy Advance - Spyro 1 Season of Ice - Sheep_65
+    21300132: Game Boy Advance - Spyro 1 Season of Ice - Sheep_66
+    21300134: Game Boy Advance - Spyro 1 Season of Ice - Sheep_67
+    21300136: Game Boy Advance - Spyro 1 Season of Ice - Sheep_68
+    21300138: Game Boy Advance - Spyro 1 Season of Ice - Sheep_69
+    21300140: Game Boy Advance - Spyro 1 Season of Ice - Sheep_70
+    21300142: Game Boy Advance - Spyro 1 Season of Ice - Sheep_71
+    21300144: Game Boy Advance - Spyro 1 Season of Ice - Sheep_72
+    21300146: Game Boy Advance - Spyro 1 Season of Ice - Sheep_73
+    21300148: Game Boy Advance - Spyro 1 Season of Ice - Sheep_74
+    21300150: Game Boy Advance - Spyro 1 Season of Ice - Sheep_75
+    21300152: Game Boy Advance - Spyro 1 Season of Ice - Sheep_76
+    21300154: Game Boy Advance - Spyro 1 Season of Ice - Sheep_77
+    21300156: Game Boy Advance - Spyro 1 Season of Ice - Sheep_78
+    21300158: Game Boy Advance - Spyro 1 Season of Ice - Sheep_79
+    21300160: Game Boy Advance - Spyro 1 Season of Ice - Sheep_80
+    21300162: Game Boy Advance - Spyro 1 Season of Ice - Sheep_81
+    21300164: Game Boy Advance - Spyro 1 Season of Ice - Sheep_82
+    21300166: Game Boy Advance - Spyro 1 Season of Ice - Sheep_83
+    21300168: Game Boy Advance - Spyro 1 Season of Ice - Sheep_84
+    21300170: Game Boy Advance - Spyro 1 Season of Ice - Sheep_85
+    21300172: Game Boy Advance - Spyro 1 Season of Ice - Sheep_86
+    21300174: Game Boy Advance - Spyro 1 Season of Ice - Sheep_87
+    21300176: Game Boy Advance - Spyro 1 Season of Ice - Sheep_88
+    21300178: Game Boy Advance - Spyro 1 Season of Ice - Sheep_89
+    21300180: Game Boy Advance - Spyro 1 Season of Ice - Sheep_90
+    21300182: Game Boy Advance - Spyro 1 Season of Ice - Sheep_91
+    21300184: Game Boy Advance - Spyro 1 Season of Ice - Sheep_92
+    21300186: Game Boy Advance - Spyro 1 Season of Ice - Sheep_93
+    21300188: Game Boy Advance - Spyro 1 Season of Ice - Sheep_94
+    21300190: Game Boy Advance - Spyro 1 Season of Ice - Sheep_95
+    21300192: Game Boy Advance - Spyro 1 Season of Ice - Sheep_96
+    21300194: Game Boy Advance - Spyro 1 Season of Ice - Sheep_97
+    21300196: Game Boy Advance - Spyro 1 Season of Ice - Sheep_98
+    21300198: Game Boy Advance - Spyro 1 Season of Ice - Sheep_99
+    21300200: Game Boy Advance - Spyro 1 Season of Ice - Sheep_100
+    21300202: Game Boy Advance - Spyro 1 Season of Ice - Sheep_101
+    21300204: Game Boy Advance - Spyro 1 Season of Ice - Sheep_102
+    21300206: Game Boy Advance - Spyro 1 Season of Ice - Sheep_103
+    21300208: Game Boy Advance - Spyro 1 Season of Ice - Sheep_104
+    21300210: Game Boy Advance - Spyro 1 Season of Ice - Sheep_105
+    21300212: Game Boy Advance - Spyro 1 Season of Ice - Sheep_106
+    21300214: Game Boy Advance - Spyro 1 Season of Ice - Sheep_107
+    21300216: Game Boy Advance - Spyro 1 Season of Ice - Sheep_108
+    21300218: Game Boy Advance - Spyro 1 Season of Ice - Sheep_109
+    21300220: Game Boy Advance - Spyro 1 Season of Ice - Sheep_110
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 418
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 418
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 418
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 418
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 418
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 418
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 418
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 418
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 390
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 390
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 390
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 390
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 390
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 390
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 390
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 391
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 360
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 363
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 362
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 363
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 363
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 363
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 362
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_23
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 364
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 334
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 334
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 333
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 333
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_28
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 334
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_29
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 333
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 333
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 334
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 306
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 306
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_35
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 305
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 306
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 305
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_39
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 306
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_40
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 255
+        width: 142
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 270
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_42
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 270
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 270
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_44
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 270
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_45
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 270
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 270
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 242
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 242
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 242
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_50
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 242
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_51
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 243
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_52
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 242
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 212
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_54
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 212
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_55
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 212
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_56
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 212
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_57
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 212
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_58
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 212
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_59
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 186
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_60
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 186
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_61
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 186
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 186
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_63
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 186
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 186
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_65
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 158
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_66
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 158
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 158
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_68
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 158
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_69
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 158
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_70
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 158
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_71
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 123
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_72
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 122
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_73
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 123
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_74
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 123
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_75
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 122
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_76
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 122
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_77
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 122
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_78
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 122
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_79
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 94
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_80
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 95
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_82
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 95
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_83
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 95
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_84
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 94
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 94
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_86
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 94
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_87
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 64
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_88
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 67
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_89
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 67
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_90
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 67
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_91
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 66
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_93
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 64
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_94
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 64
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_95
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 38
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_96
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 38
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 39
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_98
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 38
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_99
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 38
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_100
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 38
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_101
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 38
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_102
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 38
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_103
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 10
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_104
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 10
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 11
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 11
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_107
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 9
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_108
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 10
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_109
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 10
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Game Boy Advance - Spyro 1 Season of Ice - Sheep_110
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 10
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
