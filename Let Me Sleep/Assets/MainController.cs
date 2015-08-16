@@ -36,11 +36,13 @@ public class MainController : MonoBehaviour
 	public float[] ios_thresholds, osx_thresholds;
 	public ThresholdMessage[] messages;
 	public float delay_between_messages;
+	bool started;
 	int numViolations;
 	bool canSMS;
 	// Use this for initialization
 	void Start ()
 	{
+		this.started = false;
 		this.numViolations = 0;
 		this.canSMS = true;
 		this.decibels = new List<DecibelEvent> ();
@@ -56,6 +58,9 @@ public class MainController : MonoBehaviour
 
 	public void OnDecibel (float dec)
 	{
+		if (!this.started) {
+			return;
+		}
 		DecibelEvent ev = new DecibelEvent ();
 		ev.db = dec;
 		ev.ts = Time.time;
@@ -72,20 +77,35 @@ public class MainController : MonoBehaviour
 
 	void Complain (int index)
 	{
-		++this.numViolations;
-		if (this.numViolations > 4) {
-			//TODO send SG email
-		}
+		//Twilio
 		string msg = this.messages [index].GetAndIncr;
 		Debug.Log ("Send message " + msg);
 		this.twilio.body = msg;
 		string[] str = new string[this.sms_numbers.Length];
-		for (int i = 0 ; i != this.sms_numbers.Length; ++i) {
-			str[i]=this.sms_numbers[i].text;
+		for (int i = 0; i != this.sms_numbers.Length; ++i) {
+			str [i] = this.sms_numbers [i].text;
 		}
-		this.twilio.SendSMSBatch(str);
+		this.twilio.SendSMSBatch (str);
+
+		//Sendgrid
+		str = new string[this.email_addresses.Length];
+		for (int i = 0; i != this.email_addresses.Length; ++i) {
+			str [i] = this.email_addresses [i].text;
+		}
+		++this.numViolations;
+		if (this.numViolations > 4) {
+			this.sendgrid.SendSendgridEmailWebBatch (str);
+		}
+
 		this.canSMS = false;
 		Invoke ("onDelayOver", delay_between_messages);
+		if (this.decibels.Count > 3 * this.threshold_needed_max [this.threshold_needed_max.Length - 1]) {
+			Debug.Log ("Rebuild decibles history");
+			List<DecibelEvent> newdb = new List<DecibelEvent> ();
+			for (int i = (int)(this.threshold_needed_max[this.threshold_needed_max.Length-1]); i != 0; --i) {
+				newdb.Add (this.decibels [this.decibels.Count - i]);
+			}
+		}
 	}
 
 	int TryComplain (float[] thresholds)
@@ -122,5 +142,12 @@ public class MainController : MonoBehaviour
 			}
 		}
 		return -1;
+	}
+
+	public void OnStartStop ()
+	{
+		Debug.Log (this.started ? "Stopping" : "Starting");
+		this.started = !this.started;
+		this.decibels = new List<DecibelEvent> ();
 	}
 }

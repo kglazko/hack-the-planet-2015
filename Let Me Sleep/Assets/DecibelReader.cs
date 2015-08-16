@@ -56,7 +56,7 @@ public class DecibelReader : MonoBehaviour
 		this.source.GetOutputData (this.data, 1);
 		Microphone.End (Microphone.devices [0]);
 		source.clip.GetData (data, 0);
-		Debug.Log ("Grabbed new data with " + source.clip.channels + " channel");
+		//Debug.Log ("Grabbed new data with " + source.clip.channels + " channel");
 		this.GetVolume ();
 		this.usedValue = 1000 * this.rmsValue;
 		if (this.transf != null) {
